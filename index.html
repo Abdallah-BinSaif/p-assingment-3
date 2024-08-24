@@ -474,7 +474,7 @@
       <section
         class="mx-2 bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover bg-center"
       >
-        <div class="container mx-auto px-4 lg:px-8 py-24 my-2">
+        <div class="container mx-auto px-10 py-24 my-2">
           <!-- heading -->
           <div
             class="flex flex-col justify-center items-center text-center space-y-4 mb-12"
@@ -510,7 +510,7 @@
             </p>
           </div>
           <!-- form -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div class="">
               <input
                 class="w-full rounded-full p-6 text-2xl"
@@ -547,21 +547,23 @@
                 placeholder="Email Address*"
               />
             </div>
-            <div class="col-span-2">
+            <div class="lg:col-span-2">
               <textarea
-                class="w-full rounded-3xl p-6 text-2xl h-96"
+                class="w-full  border-none outline-none rounded-3xl p-6 text-2xl h-96"
                 name=""
                 id=""
                 placeholder="Your message"
               ></textarea>
             </div>
-            <div class="col-span-2">
+            <div class="lg:col-span-2">
               <a
                 ><button
                   class="btn bg-rinterio-primary rounded-full text-black font-extrabold text-2xl h-20 w-full"
                 >
                   Send Mail
-                  <div class="inline-block rounded-full bg-black text-white p-1">
+                  <div
+                    class="inline-block rounded-full bg-black text-white p-1"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -584,6 +586,68 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer></footer>
+    <footer
+      class="bg-black text-white footer footer-center text-base-content rounded p-10"
+    >
+      <nav class="space-y-8">
+        <a class="text-2xl font-bold flex">
+          <!-- arrow -->
+          <div
+            class="border inline-block rounded-full bg-rinterio-primary p-2 mr-1"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5 -rotate-45 text-black"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </div>
+          Rinterio</a
+        >
+        
+        <p class="lg:w-2/3 text-[#737373] font-bold text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,Lorem ipsum dolor sit. Et,Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, </p>
+      </nav>
+      <nav>
+        <div class="grid grid-flow-col gap-24">
+          <a class="link link-hover text-[#737373] font-bold text-xl">Home</a>
+          <a class="link link-hover text-[#737373] font-bold text-xl">Services</a>
+          <a class="link link-hover text-[#737373] font-bold text-xl">Portfolio</a>
+          <a class="link link-hover text-[#737373] font-bold text-xl">Blogs</a>
+          <a class="link link-hover text-[#737373] font-bold text-xl">Contact Us</a>
+        </div>
+      </nav>
+      <aside>
+        <a
+              ><button
+                class="btn border-none bg-rinterio-primary rounded-full text-xl text-black font-bold flex-col"
+              >
+                Book Consult
+                <div class="inline-block rounded-full bg-black text-white p-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-5 -rotate-45"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </div></button
+            ></a>
+      </aside>
+    </footer>
   </body>
 </html>
